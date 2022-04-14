@@ -325,3 +325,14 @@ a {
 dl > dt {
   font-weight: 900;
 }
+
+/* Hide the navbar.title value from docusaurus.config.js that's pushed into the navbar */
+.navbar__title {
+  display: none;
+}
+
+/* Hide the Previous and Next buttons at the end of each article/topic */
+
+.pagination-nav {
+  display: none;
+}
